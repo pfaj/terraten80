@@ -23,11 +23,11 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(6px);
   height: 50px;
   width: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.551); /* Blurred Nav Bar */
+  background-color: rgba(0, 0, 0, 0.551); 
   z-index: 1000;
 
   top: 0;

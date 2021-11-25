@@ -9,18 +9,16 @@ body {
   background-size: cover;
   height: 50%;
   width: 100%;
-}
-.main {
-  overflow-y: scroll; /* Add the ability to scroll */
+  overflow-y: scroll;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.main::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.main {
+body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -31,7 +29,7 @@ body {
 }
 
 .navbar {
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(6px);
   height: 50px;
   width: 100%;
   position: fixed;
