@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
   height: 50px;
   width: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.551); 
+  background-color: rgba(0, 0, 0, 0.551);
   z-index: 1000;
 
   top: 0;
@@ -217,7 +217,7 @@ footer {
   justify-content: left;
   padding-left: 20px;
   bottom: 0;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(6px);
 }
 
 .social-bar {
